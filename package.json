@@ -1,0 +1,16 @@
+{
+  "name": "ash-games-t5s-tysonmediagroup-org",
+  "version": "1.0.0",
+  "description": "T5S Project Background",
+  "main": "game.js",
+  "scripts": {
+    "start": "python3 -m http.server 8000"
+  },
+  "keywords": [
+    "t5s",
+    "tysonmediagroup",
+    "ash-games"
+  ],
+  "author": "TYSON Media Group",
+  "license": "ISC"
+}

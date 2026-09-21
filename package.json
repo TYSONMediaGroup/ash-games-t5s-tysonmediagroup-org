@@ -4,7 +4,9 @@
   "description": "T5S Project Background",
   "main": "game.js",
   "scripts": {
-    "start": "python3 -m http.server 8000"
+    "start": "python3 -m http.server 8000",
+    "build": "mkdir -p dist && cp index.html style.css game.js t5s-project-background.png dist/",
+    "deploy": "echo 'Static deployment ready'"
   },
   "keywords": [
     "t5s",
